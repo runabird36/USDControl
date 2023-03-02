@@ -1,0 +1,33 @@
+#usda 1.0
+
+def Scope "root" (
+    variantSets = "geo"
+)
+{
+    def Scope "common_container"
+    {
+        double radius = 2
+    }
+
+    def Scope "common_container2"
+    {
+        double radius = 3
+    }
+
+    def Sphere "my_sphere" (
+        references = </root/common_container2>
+    )
+    {
+    }
+    variantSet "geo" = {
+        "selection_1" {
+
+        }
+        "selection_2" (
+            add references = @./_complex_deactivate.usda@
+        ) {
+
+        }
+    }
+}
+

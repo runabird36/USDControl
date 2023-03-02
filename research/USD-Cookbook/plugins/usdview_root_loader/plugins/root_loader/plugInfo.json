@@ -1,0 +1,16 @@
+{
+    "Plugins": [
+        {
+            "Type": "python",
+            "Name": "root_loader",
+            "Info": {
+                "Types": {
+                    "root_loader.RootLoaderContainer": {
+                        "bases": ["pxr.Usdviewq.plugin.PluginContainer"],
+                        "displayName": "Loader / Unloader"
+                    }
+                }
+            }
+        }
+    ]
+}

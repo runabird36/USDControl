@@ -1,0 +1,17 @@
+#usda 1.0
+
+def Scope "Meshes"
+{
+    def "Thing" (
+        payload = @./payload1.usda@</Mesh>
+    )
+    {
+    }
+
+    def "Another" (
+        payload = @./payload2.usda@</Mesh>
+    )
+    {
+    }
+}
+

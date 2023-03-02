@@ -1,0 +1,17 @@
+#usda 1.0
+
+def "thing"
+{
+    def "SomethingElse"
+    {
+        def Sphere "NestedEvenMore"
+        {
+        }
+
+        def "SpecializedChild" (
+            prepend specializes = </thing/SomethingElse/NestedEvenMore>
+        )
+        {
+        }
+    }
+}
