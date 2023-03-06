@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from pxr import Usd, UsdGeom
-
+import os
 
 def _make_target():
     stage = Usd.Stage.CreateInMemory()
@@ -41,6 +41,9 @@ def main():
     print('Inner stage after setting')
     print(inner_stage.GetRootLayer().ExportToString())
 
+    inner_stage.GetRootLayer().Export(os.getcwd()+"/out_inner_stage.usd")
+    main_stage.GetRootLayer().Export(os.getcwd()+"/out_main_stage.usd")
+    # main_stage.Save()
 
 if __name__ == "__main__":
     main()

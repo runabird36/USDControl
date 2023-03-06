@@ -279,7 +279,7 @@ global proc shelf_G_USD () {
         -style "iconOnly" 
         -marginWidth 0
         -marginHeight 1
-        -command "import os, sys\nfrom importlib import reload\n\n\ncur_cate = \"features\"\ncur_step = \"batch_namespace_edit\"\n\n\npy_dir = os.path.join(os.environ['HGWEAVER_USD_RESEARCH'], \"USD-Cookbook\", cur_cate, cur_step, \"python\")\nif py_dir not in sys.path:\n    sys.path.append(py_dir)\n    \n\nimport batch_namespace_edit\nreload(batch_namespace_edit)\n\nbatch_namespace_edit.main()" 
+        -command "\nimport os, sys\nfrom importlib import reload\n\n\ncur_cate = \"features\"\ncur_step = \"edit_targets\"\n\n\npy_dir = os.path.join(os.environ['HGWEAVER_USD_RESEARCH'], \"USD-Cookbook\", cur_cate, cur_step, \"python\")\nos.chdir(py_dir)\nif py_dir not in sys.path:\n    sys.path.append(py_dir)\n    \n\n    \n\nimport edit\nreload(edit)\n\nedit.main()" 
         -sourceType "python" 
         -commandRepeatable 1
         -flat 1

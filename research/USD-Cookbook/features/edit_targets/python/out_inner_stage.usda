@@ -1,0 +1,13 @@
+#usda 1.0
+(
+    defaultPrim = "root"
+)
+
+def Scope "root"
+{
+    def Sphere "sphere"
+    {
+        double radius = 5
+    }
+}
+

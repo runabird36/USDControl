@@ -127,7 +127,7 @@ def threading_example():
     # XXX : The watcher is checking `stage1` as we continually write to
     # it on the main thread
     #
-    for index in range(1000):
+    for index in range(50):
         stage1.DefinePrim("/SomeCube{index}".format(index=index), "Cube")
         time.sleep(0.002)
 
@@ -135,7 +135,7 @@ def threading_example():
     # While this is happening, the `watcher` is still reading and
     # printing from both stages
     #
-    for index in range(1000):
+    for index in range(50):
         creator = threading.Thread(
             target=functools.partial(create_prims, cache, stage_ids, index)
         )
@@ -155,8 +155,8 @@ def threading_example():
 def main():
     """Run the main execution of the current script."""
     # using_contexts()
-    using_explicit_inserts()
-    # threading_example()
+    # using_explicit_inserts()
+    threading_example()
 
 
 if __name__ == "__main__":
