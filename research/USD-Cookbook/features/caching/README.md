@@ -1,3 +1,7 @@
+# My comment
+
+메모리 단계에서 간단하게 확인할때, 유용할것으로 추측
+
 # Quick Explanation
 ---
 

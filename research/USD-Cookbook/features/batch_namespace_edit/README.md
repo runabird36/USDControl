@@ -1,3 +1,75 @@
+## My comment 
+In my case, this is useful for editting 'export selected from maya-arnold'
+
+Because, there is the case that when export usd by maya cmds with only shader option, prim hierarchy of usd is broken. and there is no default prim.
+
+Here is the Q&A about default prim error and solution.
+
+
+##### Q. what is the meaning of # Warning: Unresolved reference path <defaultPrim> on prim
+
+##### A. 
+he warning message "Unresolved reference path <defaultPrim> on prim" typically occurs when a prim in the USD stage contains a reference to a default prim, but the default prim is not defined in the current stage or its references.
+
+
+In USD, the default prim is the top-level prim that is used as the entry point for a stage. When you create a new USD stage, it automatically defines a default prim with the path "/". If you reference a prim in another stage that does not have a default prim defined, USD will use the default prim of the referencing stage as the target of the reference.
+
+For example, suppose you have a USD stage with the following contents:
+
+```
+#usda 1.0
+
+def "MyPrim" (
+    references = [
+        @"/path/to/other.usd</SomePrim>"
+    ]
+)
+{
+    // ...
+}
+
+```
+In this example, the prim "MyPrim" contains a reference to the prim "/SomePrim" in another USD file. If the referenced file does not define a default prim, USD will use the default prim of the referencing file as the target of the reference.
+
+The warning message indicates that USD was unable to resolve the reference to the default prim, either because the referenced file does not define a default prim or because the referencing file has no default prim defined.
+
+To resolve the warning, you can either define a default prim in the referenced file or in the referencing file, or you can use a different prim path in the reference that resolves to a valid prim in the target stage.
+
+
+##### Q. what is a default prim and how to default prim ?
+
+##### A. 
+In USD, a default prim is the top-level prim that serves as the entry point for a stage. It is the first prim that is created when a new stage is initialized, and it is typically used as the root of the scene hierarchy.
+
+The default prim is defined by the stage's root layer. When you create a new stage using the pxr.Usd.Stage.CreateNew() method, a default prim is automatically created with the path "/". You can also define a custom default prim by setting the defaultPrim property of the stage's root layer:
+
+```
+import pxr
+
+stage = pxr.Usd.Stage.CreateNew("my_scene.usd")
+stage.GetRootLayer().defaultPrim = "/MyCustomDefaultPrim"
+
+```
+
+In this example, a new USD stage is created with the file name "my_scene.usd", and a custom default prim is defined with the path "/MyCustomDefaultPrim".
+
+You can also set the default prim using the SetDefaultPrim() method of the stage:
+
+```
+default_prim = pxr.Usd.Prim(stage, "/MyCustomDefaultPrim")
+stage.SetDefaultPrim(default_prim)
+
+```
+
+In this example, a new prim is created with the path "/MyCustomDefaultPrim", and the SetDefaultPrim() method is used to set it as the stage's default prim.
+
+Note that a stage must have exactly one default prim. If you create a new default prim or change the path of an existing default prim, the old default prim is automatically removed from the stage. If a stage has no default prim defined, USD will use the first prim that is encountered when traversing the stage as the default prim.
+
+
+
+
+
+
 ## Quick Explanation
 Sdf Layers can use change blocks to prevent notifications from being
 sent whenever edits to a layer occur. But for simple namespace changes,
