@@ -48,6 +48,8 @@ export HGWEAVER_USD_ROOT=path # path --> git clone path
 - [Dreamworks USD manager](http://www.usdmanager.org/index.html)
 - [Dreamworks 80일간 USD 파이프라인 만들기 설계문서 (간략)](https://research.dreamworks.com/wp-content/uploads/2020/01/Zero-to-USD-with-notes.pdf)
 - [NVIDIA Developer 가이드](https://developer.nvidia.com/usd#sample)
+- [Houdini USD workflow](https://youtu.be/2YBKWJJX2iQ)
+
 
 </br>
 
