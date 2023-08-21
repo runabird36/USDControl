@@ -40,15 +40,28 @@ export HGWEAVER_USD_ROOT=path # path --> git clone path
 ### Research URL
 ---
 
-- [USD-mainPage](https://graphics.pixar.com/usd/release/index.html)
+- [USD-mainPage](https://openusd.org/release/dl_downloads.html)
+    - [USD Introduction and Overview](https://openusd.org/files/Siggraph2019_USD%20Introduction%20and%20Overview.pdf)
+    - [USD Composition](https://openusd.org/files/Siggraph2019_USD%20Composition.pdf)
+    - [USD Authoring and Advanced Features](https://openusd.org/files/Siggraph2019_USD%20Authoring%20and%20Advanced%20Features.pdf)
+    - [Pipeline Case Studies](https://openusd.org/files/Siggraph2019_Pipeline%20Case%20Studies.pdf)
+    - [Hydra](https://openusd.org/files/Siggraph2019_Hydra.pdf)
 - [USD-Cookbook](https://github.com/ColinKennedy/USD-Cookbook)
 - [USD-API](https://graphics.pixar.com/usd/release/api/index.html)
+
+</br>
+
 - [USD: Building Asset Pipelines](https://vimeo.com/211022588)
 - [USD-Based Pipeline (2016)](https://vimeo.com/188191100)
-- [Dreamworks USD manager](http://www.usdmanager.org/index.html)
-- [Dreamworks 80일간 USD 파이프라인 만들기 설계문서 (간략)](https://research.dreamworks.com/wp-content/uploads/2020/01/Zero-to-USD-with-notes.pdf)
+- [Pixar BOF SIGGRAPH 2022](https://vimeo.com/752352357)
+- [USD Survival Guide](https://lucascheller.github.io/VFX-UsdSurvivalGuide/introduction/overview.html)
 - [NVIDIA Developer 가이드](https://developer.nvidia.com/usd#sample)
 - [Houdini USD workflow](https://youtu.be/2YBKWJJX2iQ)
+
+</br>
+
+- [Dreamworks USD manager](http://www.usdmanager.org/index.html)
+- [Dreamworks 80일간 USD 파이프라인 만들기 설계문서 (간략)](https://research.dreamworks.com/wp-content/uploads/2020/01/Zero-to-USD-with-notes.pdf)
 
 
 </br>
