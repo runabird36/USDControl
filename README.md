@@ -43,4 +43,13 @@ export HGWEAVER_USD_ROOT=path # path --> git clone path
 - [USD-mainPage](https://graphics.pixar.com/usd/release/index.html)
 - [USD-Cookbook](https://github.com/ColinKennedy/USD-Cookbook)
 - [USD-API](https://graphics.pixar.com/usd/release/api/index.html)
+- [USD: Building Asset Pipelines](https://vimeo.com/211022588)
+- [USD-Based Pipeline (2016)](https://vimeo.com/188191100)
+- [Dreamworks USD manager](http://www.usdmanager.org/index.html)
+- [Dreamworks 80일간 USD 파이프라인 만들기 설계문서 (간략)](https://research.dreamworks.com/wp-content/uploads/2020/01/Zero-to-USD-with-notes.pdf)
+- [NVIDIA Developer 가이드](https://developer.nvidia.com/usd#sample)
 
+</br>
+
+- 마야 2023 USD 가이드문서 + USD view 띄우기 가이드
+- animal logic 데이터
