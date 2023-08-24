@@ -32,7 +32,7 @@
 
 from pxr import Gf, Kind, Sdf, Usd, UsdGeom, UsdShade
 
-stage = Usd.Stage.CreateNew("simpleShading.usda")
+stage = Usd.Stage.CreateNew("/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/simpleShading.usda")
 UsdGeom.SetStageUpAxis(stage, UsdGeom.Tokens.y)
 
 # We put both geometry and materials under a common "model root prim",

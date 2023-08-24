@@ -1,0 +1,43 @@
+#usda 1.0
+(
+    defaultPrim = "ssongBy_group1"
+)
+
+def Xform "ssongBy_group1"
+{
+    def Scope "mtl"
+    {
+        def Material "ssongBy_smallSG"
+        {
+            token outputs:arnold:surface.connect = </ssongBy_group1/mtl/ssongBy_smallSG/ssongBy_small.outputs:surface>
+
+            def Shader "ssongBy_small"
+            {
+                uniform token info:id = "arnold:standard_surface"
+                color3f inputs:base_color = (0.2613, 0.1372, 1)
+                token outputs:surface
+            }
+        }
+
+        def Material "ssongBy_largeSG"
+        {
+            token outputs:arnold:surface.connect = </ssongBy_group1/mtl/ssongBy_largeSG/ssongBy_large.outputs:surface>
+
+            def Shader "ssongBy_large"
+            {
+                uniform token info:id = "arnold:standard_surface"
+                color3f inputs:base_color = (0.8, 0.8, 0.8)
+                prepend color3f inputs:base_color.connect = </ssongBy_group1/mtl/ssongBy_largeSG/colorConstant1.outputs:out>
+                token outputs:surface
+            }
+
+            def Shader "colorConstant1"
+            {
+                uniform token info:id = "arnold:shuffle"
+                color3f inputs:color = (1, 0.2156, 0.6353)
+                color4f outputs:out
+            }
+        }
+    }
+}
+

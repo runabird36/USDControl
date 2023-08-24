@@ -1,4 +1,12 @@
 
+
+
+
+# Stage 생성후
+# Prim 생성
+# ** session layer 개념은 별도
+
+
 from pxr import Usd, UsdGeom
 from path_module import data_01
 stage = Usd.Stage.CreateNew(data_01)
