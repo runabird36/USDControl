@@ -10,6 +10,9 @@ asset_stage.OverridePrim("/ssongBy_group1")
 asset_stage.OverridePrim("/ssongBy_group1/ssongBy_pSphere1")
 asset_stage.OverridePrim("/ssongBy_group1/ssongBy_pSphere2")
 
+# asset_stage.OverridePrim("/ssongBy_group1/mtl/ssongBy_smallSG")
+# asset_stage.OverridePrim("/ssongBy_group1/mtl/ssongBy_largeSG")
+
 asset_stage.SetDefaultPrim(asset_stage.GetPrimAtPath("/ssongBy_group1"))
 
 asset_stage.GetRootLayer().subLayerPaths.append(data_07_only_ldv)
