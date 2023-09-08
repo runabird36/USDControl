@@ -44,11 +44,12 @@ def open_usdview():
         try:
             import OpenGL
         except:
-            subprocess.check_call([mayapy, '-m', 'pip', 'install', 'PyOpenGL==3.1.0'])
+            subprocess.check_call([mayapyPath, '-m', 'pip', 'install', 'PyOpenGL==3.1.0'])
         if sys.platform in ('win32'): 
             creationflags = 0x08000000 # CREATE_NO_WINDOW only for win32, not MacOS or Linux
         else:
             creationflags = 0
         
         print([mayapyPath, usdViewPath, target])
+        print(f"{mayapyPath} {usdViewPath} {target}")
         subprocess.Popen([mayapyPath, usdViewPath, target], creationflags=creationflags)

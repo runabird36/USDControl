@@ -1,0 +1,17 @@
+#usda 1.0
+(
+    defaultPrim = "root"
+    subLayers = [
+        @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/maigician_ldv_entity_with_variant.usda@,
+        @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_geo_entity_variant_case.usda@
+    ]
+)
+
+over "root" (
+    variants = {
+        string viewMode = "ani"
+    }
+)
+{
+}
+

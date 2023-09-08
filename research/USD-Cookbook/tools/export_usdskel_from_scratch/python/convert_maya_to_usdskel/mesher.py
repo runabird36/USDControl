@@ -8,7 +8,7 @@ from maya import cmds
 from pxr import UsdGeom
 
 # IMPORT LOCAL LIBRARIES
-from . import helper
+import helper
 
 
 def get_overall_bounding_box(meshes, time_code):

@@ -57,6 +57,7 @@ export HGWEAVER_USD_ROOT=path # path --> git clone path
 - [USD Survival Guide](https://lucascheller.github.io/VFX-UsdSurvivalGuide/introduction/overview.html)
 - [NVIDIA Developer 가이드](https://developer.nvidia.com/usd#sample)
 - [Houdini USD workflow](https://youtu.be/2YBKWJJX2iQ)
+- [Animal logic USD](https://www.youtube.com/watch?v=o6VwS7VVx1I&list=PLNUaMVwYjKk8QDlM8gQSLbl8jxLRgc7d6&index=1)
 
 </br>
 

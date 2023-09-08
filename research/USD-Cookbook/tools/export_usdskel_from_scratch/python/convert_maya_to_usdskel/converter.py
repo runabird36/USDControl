@@ -17,12 +17,17 @@ Example:
 
 import functools
 import logging
-import os
+import os, sys
+
+_path = "/usersetup/pipeline/playground/projects/2023_02_usdPipeline/research/USD-Cookbook/tools/export_usdskel_from_scratch/python/convert_maya_to_usdskel"
+
+if _path not in sys.path:
+    sys.path.append(_path)
 
 from maya import cmds
 from pxr import Gf, Sdf, Usd, UsdGeom, UsdSkel, Vt
 
-from . import animator, common, helper, mesher, skinner
+import animator, common, helper, mesher, skinner
 
 LOGGER = logging.getLogger(__name__)
 
@@ -352,7 +357,11 @@ def _setup_meshes(meshes, skeleton, path):
     #
     # Reference: https://graphics.pixar.com/usd/docs/Maya-USD-Plugins.html
     #
-    cmds.usdExport(meshes, file=path, exportSkin="auto")
+    # file -force
+    #       -options ";exportUVs=1;exportSkels=auto;exportSkin=auto;exportBlendShapes=1;exportDisplayColor=0;filterTypes=nurbsCurve;exportColorSets=1;exportComponentTags=0;defaultMeshScheme=catmullClark;animation=1;eulerFilter=0;staticSingleSample=0;startTime=1;endTime=30;frameStride=1;frameSample=0.0;defaultUSDFormat=usda;parentScope=;shadingMode=useRegistry;convertMaterialsTo=[];exportInstances=1;exportVisibility=1;mergeTransformAndShape=1;stripNamespaces=0;worldspace=0;materialsScopeName=mtl"
+    #       -typ "USD Export" -pr -es "/home/taiyeong.song/Desktop/pipeTemp/aaa/usdTEST/aaa.usd";
+    # cmds.usdExport(meshes, file=path, exportSkin="auto")
+    cmds.file(path, es=True, pr=True, typ="USD Export", op=";exportUVs=1;exportSkels=auto;exportSkin=auto;exportBlendShapes=1;exportDisplayColor=0;filterTypes=nurbsCurve;exportColorSets=1;exportComponentTags=0;defaultMeshScheme=catmullClark;animation=1;eulerFilter=0;staticSingleSample=0;startTime=1;endTime=30;frameStride=1;frameSample=0.0;defaultUSDFormat=usda;parentScope=;shadingMode=useRegistry;convertMaterialsTo=[];exportInstances=1;exportVisibility=1;mergeTransformAndShape=1;stripNamespaces=0;worldspace=0;materialsScopeName=mtl")
 
     root = UsdSkel.Root.Find(skeleton)
 
@@ -520,7 +529,13 @@ def write_rig_as_usdskel(node, root_path, animation_path, folder, times=None):
     if not os.path.isdir(folder):
         os.makedirs(folder)
 
-    skeleton_stage = Usd.Stage.CreateNew(os.path.join(folder, "skeleton.usda"))
+    
+    skeleton_stage_path = os.path.join(folder, "skeleton.usda")
+    if os.path.exists(skeleton_stage_path) == True:
+        skeleton_stage = Usd.Stage.Open(skeleton_stage_path)
+    else:
+        skeleton_stage = Usd.Stage.CreateNew(skeleton_stage_path)
+    
 
     root = UsdSkel.Root.Define(skeleton_stage, root_path)
     root.GetPrim().SetMetadata(
@@ -534,7 +549,11 @@ def write_rig_as_usdskel(node, root_path, animation_path, folder, times=None):
     topology = _validate_topology(joints)
 
     # Note: This file contains the skeleton, meshes, and animation
-    main_stage = Usd.Stage.CreateNew(os.path.join(folder, "main.usda"))
+    main_stage_path = os.path.join(folder, "main.usda")
+    if os.path.exists(main_stage_path) == True:
+        main_stage = Usd.Stage.Open(main_stage_path)
+    else:
+        main_stage = Usd.Stage.CreateNew(main_stage_path)
     main_stage.SetMetadata(
         "comment",
         "This stage describes some animation and combines it with the "
@@ -565,7 +584,11 @@ def write_rig_as_usdskel(node, root_path, animation_path, folder, times=None):
         nodes, times
     )
 
-    animation_stage = Usd.Stage.CreateNew(os.path.join(folder, "animation.usda"))
+    anim_stage_path = os.path.join(folder, "animation.usda")
+    if os.path.exists(anim_stage_path) == True:
+        animation_stage = Usd.Stage.Open(anim_stage_path)
+    else:
+        animation_stage = Usd.Stage.CreateNew(anim_stage_path)
     animation_stage.SetMetadata(
         "comment",
         "This Layer only describes an animation for our skeleton. "
@@ -585,16 +608,19 @@ def write_rig_as_usdskel(node, root_path, animation_path, folder, times=None):
     _setup_animation_connections(
         main_stage, root.GetPrim().GetPath(), animation.GetPrim().GetPath()
     )
-
+    animation_stage.GetRootLayer().ExportToString()
     animation_stage.Save()
+
+    mesh_stage_path = os.path.join(folder, "meshes.usd")
 
     meshes = set(mesh for joint in nodes for mesh in mesher.get_connected_meshes(joint))
     data = _setup_meshes(
-        meshes, skeleton.GetPrim(), os.path.join(folder, "meshes.usda")
+        meshes, skeleton.GetPrim(), mesh_stage_path
     )
     _setup_cached_extents_hints(main_stage, root.GetPrim().GetPath(), meshes, times)
     skinner.setup_skinning(data, nodes)
 
+    skeleton_stage.GetRootLayer().ExportToString()
     skeleton_stage.GetRootLayer().Save()
 
     for stage_ in (skeleton_stage, animation_stage):
@@ -602,4 +628,24 @@ def write_rig_as_usdskel(node, root_path, animation_path, folder, times=None):
             os.path.relpath(stage_.GetRootLayer().identifier, folder)
         )
 
+    main_stage.GetRootLayer().ExportToString()
     main_stage.Save()
+
+
+
+
+
+# tars = [
+#     '|pSphere1',
+#     '|skeleton'
+# ]
+
+# cmds.select(tars)
+
+node = 'root_joint'
+write_rig_as_usdskel(
+    node, 
+    "/SkeletonRoot",
+    "/SkeletonAnimation",
+    "/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/skelTest",
+)

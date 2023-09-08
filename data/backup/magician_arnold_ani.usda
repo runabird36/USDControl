@@ -1,0 +1,246 @@
+#usda 1.0
+(
+    defaultPrim = "root"
+    subLayers = [
+        @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_rig_entity.usda@,
+        @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_ldv_entity.usda@
+    ]
+)
+
+over "root"
+{
+    over "geo"
+    {
+        over "magicianAcrwd_GRP"
+        {
+            over "magicianAcrwd_char_GRP"
+            {
+                over "magicianAcrwd_low_GRP"
+                {
+                    over "magicianAcrwd_low_body_GRP"
+                    {
+                        over "magicianAcrwd_low_body_R_eye_GRP"
+                        {
+                            over "magicianAcrwd_low_body_R_eye_pupil_GEO"
+                            {
+                                rel material:binding = </root/mtl/eyeIris_SG>
+                            }
+
+                            over "magicianAcrwd_low_body_R_eye_iris_GEO"
+                            {
+                                rel material:binding = </root/mtl/eyeIris_SG>
+                            }
+
+                            over "magicianAcrwd_low_body_R_eye_cap_GEO"
+                            {
+                                rel material:binding = </root/mtl/magicianA_eye_cap_SG>
+                            }
+                        }
+
+                        over "magicianAcrwd_low_body_L_eye_GRP"
+                        {
+                            over "magicianAcrwd_low_body_L_eye_pupil_GEO"
+                            {
+                                rel material:binding = </root/mtl/eyeIris_SG>
+                            }
+
+                            over "magicianAcrwd_low_body_L_eye_iris_GEO"
+                            {
+                                rel material:binding = </root/mtl/eyeIris_SG>
+                            }
+
+                            over "magicianAcrwd_low_body_L_eye_cap_GEO"
+                            {
+                                rel material:binding = </root/mtl/magicianA_eye_cap_SG>
+                            }
+                        }
+
+                        over "magicianAcrwd_low_body_skin_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_layered_SG>
+                        }
+                    }
+
+                    over "magicianAcrwd_low_arm_R_GRP"
+                    {
+                        over "magicianAcrwd_low_arm_R_Bc_steel_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicStaff_steel_SG>
+                        }
+
+                        over "magicianAcrwd_low_arm_gloves_R_leather_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_GloveLeather_SG>
+                        }
+
+                        over "magicianAcrwd_low_arm_R_leather_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_GloveLeather_SG>
+                        }
+
+                        over "magicianAcrwd_low_arm_R_Bb_steel_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Metal_SG>
+                        }
+
+                        over "magicianAcrwd_low_arm_R_Bd_steel_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Metal_SG>
+                        }
+                    }
+
+                    over "magicianAcrwd_low_lowerBody_GRP"
+                    {
+                        over "magicianAcrwd_low_lowerBody_belt_A_GRP"
+                        {
+                            over "magicianAcrwd_low_lowerBody_belt_Aa_steel_GEO"
+                            {
+                                rel material:binding = </root/mtl/magicianA_blood_BeltLeather_SG>
+                            }
+
+                            over "magicianAcrwd_low_lowerBody_belt_Aa_leather_GEO"
+                            {
+                                rel material:binding = </root/mtl/magicianA_blood_BeltLeather_SG>
+                            }
+                        }
+
+                        over "magicianAcrwd_low_lowerBody_pants_leather_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Fabric_SG>
+                        }
+                    }
+
+                    over "magicianAcrwd_low_head_GRP"
+                    {
+                        over "magicianAcrwd_low_head_chainmail_A_steel_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Chainmail_SG>
+                        }
+
+                        over "magicianAcrwd_low_head_hood_A_fabric_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Fabric_SG>
+                        }
+                    }
+
+                    over "magicianAcrwd_low_upperBody_GRP"
+                    {
+                        over "magicianAcrwd_low_upperBody_surcoat_GRP"
+                        {
+                            over "magicianAcrwd_low_upperBody_surcoat_A_Fabric_GEO"
+                            {
+                                rel material:binding = </root/mtl/magicianA_blood_Fabric_SG>
+                            }
+
+                            over "magicianAcrwd_low_upperBody_surcoat_B_Fabric_GEO"
+                            {
+                                rel material:binding = </root/mtl/magicianA_blood_Fabric_SG>
+                            }
+                        }
+
+                        over "magicianAcrwd_low_upperBody_A_fabric_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Fabric_SG>
+                        }
+
+                        over "magicianAcrwd_low_upperBody_B_fabric_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_robe_SG>
+                        }
+                    }
+
+                    over "magicianAcrwd_low_arm_L_GRP"
+                    {
+                        over "magicianAcrwd_low_arm_gloves_L_leather_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_GloveLeather_SG>
+                        }
+
+                        over "magicianAcrwd_low_arm_L_leather_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_GloveLeather_SG>
+                        }
+
+                        over "magicianAcrwd_low_arm_L_Bc_steel_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Metal_SG>
+                        }
+
+                        over "magicianAcrwd_low_arm_L_Bd_steel_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Metal_SG>
+                        }
+
+                        over "magicianAcrwd_low_arm_L_Bb_steel_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Metal_SG>
+                        }
+                    }
+
+                    over "magicianAcrwd_low_leg_L_GRP"
+                    {
+                        over "magicianAcrwd_low_leg_L_A_steel_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Metal_SG>
+                        }
+
+                        over "magicianAcrwd_low_leg_L_C_steel_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Metal_SG>
+                        }
+
+                        over "magicianAcrwd_low_leg_L_B_steel_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Metal_SG>
+                        }
+                    }
+
+                    over "magicianAcrwd_low_leg_R_GRP"
+                    {
+                        over "magicianAcrwd_low_leg_R_C_steel_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Metal_SG>
+                        }
+
+                        over "magicianAcrwd_low_leg_R_A_steel_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Metal_SG>
+                        }
+
+                        over "magicianAcrwd_low_leg_R_B_steel_GEO"
+                        {
+                            rel material:binding = </root/mtl/magicianA_blood_Metal_SG>
+                        }
+                    }
+                }
+            }
+
+            over "magicianAcrwd_weapon_GRP"
+            {
+                over "magicianAcrwd_low_magicStaff_GRP"
+                {
+                    over "magicianAcrwd_low_magicStaff_A_wood_GEO"
+                    {
+                        rel material:binding = </root/mtl/magicStaff_A_wood_SG>
+                    }
+
+                    over "magicianAcrwd_low_magicStaff_B_steel_GEO"
+                    {
+                        rel material:binding = </root/mtl/magicStaff_steel_SG>
+                    }
+
+                    over "magicianAcrwd_low_magicStaff_C_steel_GEO"
+                    {
+                        rel material:binding = </root/mtl/magicStaff_steel_SG>
+                    }
+
+                    over "magicianAcrwd_low_magicStaff_A_steel_GEO"
+                    {
+                        rel material:binding = </root/mtl/magicStaff_steel_SG>
+                    }
+                }
+            }
+        }
+    }
+}
+

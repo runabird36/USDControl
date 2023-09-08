@@ -18,7 +18,8 @@ def _get_skin_cluster(meshes):
         for history_node in cmds.listHistory(mesh, allConnections=True):
             if cmds.nodeType(history_node) == "skinCluster":
                 clusters.add(history_node)
-
+        print(mesh)
+        print(clusters)
         if len(clusters) > 1:
             raise NotImplementedError(
                 "This function doesn't support multiple skin clusters yet"

@@ -1,0 +1,5627 @@
+#usda 1.0
+
+def Xform "magicianAcrwd_000" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_001" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_002" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_003" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_004" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_005" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_006" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_007" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_008" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_009" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_010" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_011" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_012" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_013" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_014" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_015" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_016" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_017" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_018" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_019" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_020" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_021" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_022" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_023" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_024" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (0, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_025" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_026" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_027" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_028" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_029" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_030" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_031" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_032" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_033" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_034" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_035" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_036" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_037" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_038" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_039" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_040" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_041" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_042" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_043" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_044" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_045" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_046" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_047" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_048" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_049" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (20, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_050" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_051" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_052" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_053" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_054" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_055" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_056" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_057" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_058" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_059" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_060" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_061" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_062" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_063" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_064" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_065" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_066" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_067" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_068" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_069" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_070" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_071" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_072" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_073" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_074" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (40, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_075" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_076" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_077" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_078" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_079" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_080" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_081" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_082" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_083" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_084" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_085" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_086" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_087" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_088" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_089" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_090" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_091" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_092" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_093" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_094" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_095" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_096" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_097" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_098" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_099" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (60, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_100" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_101" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_102" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_103" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_104" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_105" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_106" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_107" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_108" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_109" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_110" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_111" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_112" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_113" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_114" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_115" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_116" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_117" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_118" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_119" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_120" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_121" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_122" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_123" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_124" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (80, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_125" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_126" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_127" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_128" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_129" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_130" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_131" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_132" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_133" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_134" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_135" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_136" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_137" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_138" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_139" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_140" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_141" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_142" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_143" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_144" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_145" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_146" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_147" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_148" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_149" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (100, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_150" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_151" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_152" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_153" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_154" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_155" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_156" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_157" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_158" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_159" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_160" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_161" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_162" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_163" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_164" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_165" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_166" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_167" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_168" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_169" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_170" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_171" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_172" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_173" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_174" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (120, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_175" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_176" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_177" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_178" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_179" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_180" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_181" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_182" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_183" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_184" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_185" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_186" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_187" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_188" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_189" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_190" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_191" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_192" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_193" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_194" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_195" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_196" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_197" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_198" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_199" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (140, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_200" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_201" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_202" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_203" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_204" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_205" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_206" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_207" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_208" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_209" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_210" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_211" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_212" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_213" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_214" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_215" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_216" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_217" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_218" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_219" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_220" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_221" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_222" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_223" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_224" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (160, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_225" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_226" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_227" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_228" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_229" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_230" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_231" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_232" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_233" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_234" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_235" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_236" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_237" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_238" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_239" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_240" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_241" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_242" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_243" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_244" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_245" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_246" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_247" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_248" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_249" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (180, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_250" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_251" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_252" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_253" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_254" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_255" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_256" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_257" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_258" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_259" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_260" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_261" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_262" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_263" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_264" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_265" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_266" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_267" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_268" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_269" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_270" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_271" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_272" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_273" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_274" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (200, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_275" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_276" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_277" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_278" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_279" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_280" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_281" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_282" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_283" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_284" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_285" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_286" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_287" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_288" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_289" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_290" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_291" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_292" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_293" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_294" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_295" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_296" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_297" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_298" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_299" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (220, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_300" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_301" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_302" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_303" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_304" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_305" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_306" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_307" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_308" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_309" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_310" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_311" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_312" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_313" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_314" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_315" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_316" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_317" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_318" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_319" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_320" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_321" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_322" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_323" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_324" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (240, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_325" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_326" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_327" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_328" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_329" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_330" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_331" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_332" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_333" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_334" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_335" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_336" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_337" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_338" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_339" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_340" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_341" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_342" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_343" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_344" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_345" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_346" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_347" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_348" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_349" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (260, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_350" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_351" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_352" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_353" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_354" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_355" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_356" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_357" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_358" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_359" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_360" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_361" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_362" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_363" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_364" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_365" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_366" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_367" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_368" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_369" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_370" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_371" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_372" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_373" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_374" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (280, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_375" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_376" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_377" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_378" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_379" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_380" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_381" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_382" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_383" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_384" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_385" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_386" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_387" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_388" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_389" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_390" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_391" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_392" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_393" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_394" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_395" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_396" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_397" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_398" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_399" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (300, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_400" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_401" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_402" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_403" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_404" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_405" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_406" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_407" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_408" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_409" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_410" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_411" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_412" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_413" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_414" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_415" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_416" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_417" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_418" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_419" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_420" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_421" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_422" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_423" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_424" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (320, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_425" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_426" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_427" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_428" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_429" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_430" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_431" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_432" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_433" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_434" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_435" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_436" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_437" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_438" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_439" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_440" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_441" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_442" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_443" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_444" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_445" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_446" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_447" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_448" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_449" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (340, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_450" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_451" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_452" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_453" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_454" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_455" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_456" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_457" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_458" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_459" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_460" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_461" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_462" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_463" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_464" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_465" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_466" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_467" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_468" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_469" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_470" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_471" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_472" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_473" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_474" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (360, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_475" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_476" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_477" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_478" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_479" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_480" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_481" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_482" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_483" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_484" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_485" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_486" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_487" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_488" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_489" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_490" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_491" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_492" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_493" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_494" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_495" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_496" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_497" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_498" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_499" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (380, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_500" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_501" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_502" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_503" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_504" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_505" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_506" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_507" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_508" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_509" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_510" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_511" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_512" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_513" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_514" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_515" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_516" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_517" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_518" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_519" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_520" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_521" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_522" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_523" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_524" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (400, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_525" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_526" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_527" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_528" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_529" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_530" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_531" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_532" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_533" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_534" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_535" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_536" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_537" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_538" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_539" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_540" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_541" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_542" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_543" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_544" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_545" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_546" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_547" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_548" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_549" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (420, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_550" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_551" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_552" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_553" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_554" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_555" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_556" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_557" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_558" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_559" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_560" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_561" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_562" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_563" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_564" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_565" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_566" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_567" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_568" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_569" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_570" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_571" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_572" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_573" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_574" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (440, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_575" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_576" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_577" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_578" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_579" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_580" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_581" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_582" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_583" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_584" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_585" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_586" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_587" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_588" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_589" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_590" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_591" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_592" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_593" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_594" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_595" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_596" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_597" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_598" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_599" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (460, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_600" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_601" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_602" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 40)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_603" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 60)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_604" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 80)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_605" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_606" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 120)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_607" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 140)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_608" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 160)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_609" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 180)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_610" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 200)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_611" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 220)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_612" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 240)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_613" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 260)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_614" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 280)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_615" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 300)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_616" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 320)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_617" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 340)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_618" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 360)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_619" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 380)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_620" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 400)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_621" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 420)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_622" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 440)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_623" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 460)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+
+def Xform "magicianAcrwd_624" (
+    instanceable = true
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician_arnold_rig.usd@
+)
+{
+    double3 xformOp:translate = (480, 0, 480)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+}
+

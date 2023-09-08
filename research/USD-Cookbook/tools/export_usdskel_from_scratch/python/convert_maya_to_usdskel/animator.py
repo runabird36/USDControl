@@ -9,7 +9,7 @@ import sys
 from maya import cmds
 from pxr import Gf
 
-from . import helper
+import helper
 
 
 def get_animation_range(nodes):
