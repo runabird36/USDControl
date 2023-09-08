@@ -12,6 +12,12 @@ from path_module import (
 
 
 from pxr import Usd
+from os.path import relpath, dirname
+
+
+ldv_ani_relpath     = relpath(data_03_00_rearranged_ldv_ani, dirname(data_03_01_variant_ldv_entity))
+ldv_render_relpath  = relpath(data_03_00_rearranged_ldv_render, dirname(data_03_01_variant_ldv_entity))
+
 
 
 ldv_entity_stage = Usd.Stage.CreateNew(data_03_01_variant_ldv_entity)
@@ -24,11 +30,11 @@ v_mode.AddVariant("render")
 
 v_mode.SetVariantSelection('ani')
 with v_mode.GetVariantEditContext():
-    root_prim.GetReferences().AddReference(data_03_00_rearranged_ldv_ani)
+    root_prim.GetReferences().AddReference(ldv_ani_relpath)
 
 v_mode.SetVariantSelection('render')
 with v_mode.GetVariantEditContext():
-    root_prim.GetReferences().AddReference(data_03_00_rearranged_ldv_render)
+    root_prim.GetReferences().AddReference(ldv_render_relpath)
 
 
 

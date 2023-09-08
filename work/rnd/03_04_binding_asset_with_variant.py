@@ -7,12 +7,15 @@ from path_module import (
                             data_03_03_geo_entity
                         )
 from pxr import Usd
+from os.path import relpath, dirname
 
 
+ldv_entity_relpath = relpath(data_03_01_variant_ldv_entity, dirname(data_03_04_variant_asset))
+geo_entity_relpath = relpath(data_03_03_geo_entity, dirname(data_03_04_variant_asset))
 
 asset_stage = Usd.Stage.CreateNew(data_03_04_variant_asset)
-asset_stage.GetRootLayer().subLayerPaths.append(data_03_01_variant_ldv_entity)
-asset_stage.GetRootLayer().subLayerPaths.append(data_03_03_geo_entity)
+asset_stage.GetRootLayer().subLayerPaths.append(ldv_entity_relpath)
+asset_stage.GetRootLayer().subLayerPaths.append(geo_entity_relpath)
 
 
 asset_root_prim = asset_stage.GetPrimAtPath('/root')

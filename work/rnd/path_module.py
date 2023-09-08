@@ -44,13 +44,13 @@ data_02_02_magician_setDressing = f"{data_dir}/magician02_groupses.usd"
 
 
 
-data_03_00_rearranged_ldv_ani       = f"{data_dir}/magician03_rearraged_ldv_ani.usd"
-data_03_00_rearranged_ldv_render    = f"{data_dir}/magician03_rearraged_ldv_render.usd"
-data_03_01_variant_ldv_entity       = f"{data_dir}/maigician03_variant_ldv_entity.usd"
-data_03_02_rearragned_magician_rig  = f"{data_dir}/magician03_rearranged_arnold_rig.usd"
-data_03_03_geo_entity               = f"{data_dir}/maigician03_variant_geo_entity.usd"
-data_03_04_variant_asset            = f"{data_dir}/magician03_arnold_variant_asset.usd"
-data_03_05_magician_setDressing     = f"{data_dir}/magician03_groupses_var.usd"
+data_03_00_rearranged_ldv_ani       = f"{data_dir}/magician03/magician03_fragment/magician03_rearraged_ldv_ani.usd"
+data_03_00_rearranged_ldv_render    = f"{data_dir}/magician03/magician03_fragment/magician03_rearraged_ldv_render.usd"
+data_03_01_variant_ldv_entity       = f"{data_dir}/magician03/magician03_entity/maigician03_variant_ldv_entity.usd"
+data_03_02_rearragned_magician_rig  = f"{data_dir}/magician03/magician03_fragment/magician03_rearranged_arnold_rig.usd"
+data_03_03_geo_entity               = f"{data_dir}/magician03/magician03_entity/maigician03_variant_geo_entity.usd"
+data_03_04_variant_asset            = f"{data_dir}/magician03/magician03_arnold_variant_asset.usd"
+data_03_05_magician_setDressing     = f"{data_dir}/magician03/magician03_groupses_var.usd"
 
 
 

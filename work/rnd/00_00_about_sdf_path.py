@@ -31,3 +31,15 @@ print(p01.pathString)
 
 print(p01.AppendChild('ee'))
 print(p01.AppendPath('ae/ee'))
+
+
+from path_module import data_dir, exported_data_magician_ldv_render
+
+root = Sdf.Path('/ee')
+tar  = Sdf.Path('/ee/aef/bvefe/aa')
+res = tar.MakeRelativePath(root)
+print(res)
+
+
+# res = Sdf.Path(data_dir).MakeRelativePath(Sdf.Path(exported_data_magician_ldv_render))
+# print(res)

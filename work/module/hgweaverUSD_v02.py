@@ -53,3 +53,210 @@ def open_usdview():
         print([mayapyPath, usdViewPath, target])
         print(f"{mayapyPath} {usdViewPath} {target}")
         subprocess.Popen([mayapyPath, usdViewPath, target], creationflags=creationflags)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def is_with_namespace(_tar):
+    if ':' in _tar:
+        return True
+    else:
+        return False
+
+
+
+def is_top_node(tar_node):
+    element_list = tar_node.split('|')
+    if len(element_list) == 2:
+        return True
+    else:
+        return False
+
+
+
+
+def get_targets(all_info_dict):
+    all_tars = cmds.ls(sl=True, l=True)
+
+    for _tar in all_tars:
+        _each_asset_dict = {}
+        _with_ns = False
+        _is_top = False
+        _parent_address = ''
+
+
+        if is_with_namespace(_tar) == True:
+            _with_ns = True
+        else:
+            _with_ns = False
+
+
+        if is_top_node(_tar) == True:
+            _is_top = True
+        else:
+            _is_top = False
+            _temp = _tar.split('|')
+            _temp.pop()
+            _parent_address = '|'.join(_temp)
+
+        all_info_dict[_tar] = {'IS_TOP':_is_top, 'PARENT_ADDRESS':_parent_address, 'NAMESPACE':_with_ns}
+
+    return all_info_dict
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def get_all_shape_in_hierarchy(grp=None):
+    if grp is None:
+        grp = cmds.ls(sl=True)[0]
+
+    return cmds.listRelatives(grp, ad=True, f=True, typ = 'shape')
+
+
+
+def get_shading_engines(shape):
+    # return cmds.listConnections (shape, source=False, destination=True)
+    connected_list = cmds.listConnections (shape, source=False, destination=True)
+
+    result_shading_engine_list = []
+    if connected_list == None:
+        return None
+    else:
+        for node in connected_list:
+            node_type = cmds.nodeType(node)
+            if node_type == 'shadingEngine':
+                result_shading_engine_list.append(node)
+        return result_shading_engine_list
+
+
+
+def get_shading_groups_in_hierarchy(grp):
+    shading_engine_list = []
+
+    for shape in get_all_shape_in_hierarchy(grp):
+        shading_engines = get_shading_engines(shape)
+        if not shading_engines == None:
+            check_engines_list = shading_engines
+            while 'initialShadingGroup' in check_engines_list:
+                shading_engines.remove('initialShadingGroup')
+            if not shading_engines:
+                continue
+            else:
+                for _shadinggroup in shading_engines:
+                    if not _shadinggroup in shading_engine_list:
+                        shading_engine_list.append(_shadinggroup)
+
+            # print '{0} -----------------------> '.format(shape)
+            # print shading_engines
+
+    return shading_engine_list
+
+
+
+
+
+
+
+
+def make_magic_path(f_path):
+    _temp = f_path.split(':')[-1]
+    if ':' in f_path:
+        return '*:*{0}*'.format(_temp)
+    else:
+        return '*{0}*'.format(_temp)
+
+
+
+def get_geom(sg):
+    members = cmds.sets(sg, q=True)
+    paths = []
+    for member in members:
+        _IS_ATTRIBUTE = False
+
+        if '.f' in member:
+            _IS_ATTRIBUTE = True
+        else:
+            _IS_ATTRIBUTE = False
+
+
+        if _IS_ATTRIBUTE == False:
+            # full_path = cmds.listRelatives(member, fullPath=True, allParents=True).pop()
+            full_path = cmds.listRelatives(member, allParents=True, f=True).pop()
+        else:
+            full_path = cmds.ls(member, l=True).pop()
+            # full_path = cmds.ls(member).pop()
+
+        # print(full_path)
+        # magic_path = make_magic_path(full_path)
+        full_path = full_path.replace('|', '/')
+        paths.append(full_path)
+
+    return list(set(paths))
+
+
+
+
+
+
+def get_mat(_sg):
+    all_linked_node = cmds.listConnections(_sg, d=False, s=True)
+    linked_mat = cmds.ls(all_linked_node, mat=True)
+
+    if linked_mat is None or linked_mat == []:
+        return ''
+    return linked_mat[0]
+
+
+
+
+
+
+
+def get_assigned_info():
+    all_info_dict = {}
+    all_info_dict = get_targets(all_info_dict)
+
+    export_tar_sg_list = []
+    for _tar, _tar_info_dict in all_info_dict.items():
+        sg_list = get_shading_groups_in_hierarchy(_tar)
+        export_tar_sg_list.extend(sg_list)
+
+        link_info_dict = {}
+        for _sg in sg_list:
+            assigned_shapes = get_geom(_sg)
+            assigned_mat = get_mat(_sg)
+            # link_info_dict[assigned_mat] = assigned_shapes
+            link_info_dict[_sg] = assigned_shapes
+ 
+        _tar_info_dict['LINK'] = link_info_dict
+
+    return (list(all_info_dict.values()).pop()).get('LINK')
