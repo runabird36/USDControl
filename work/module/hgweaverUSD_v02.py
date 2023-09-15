@@ -22,7 +22,7 @@ def open_usdview():
 
         mayaVer = 2023
         os.environ['MAYA_LOCATION'] = "/usr/autodesk/maya2023"
-        os.environ['USD_LOCATION'] = "/usr/autodesk/mayausd/maya2023/0.19.0_202208181606-508c93f/mayausd/USD"
+        os.environ['USD_LOCATION'] = "/usr/autodesk/mayausd/maya2023/0.20.0_202211021008-b68700b/mayausd/USD"
         target = text
         mayapyBinPath = os.path.join(os.environ['MAYA_LOCATION'], 'bin')
         if mayaVer == 2022:
