@@ -29,6 +29,7 @@ os.environ['solidangle_LICENSE'] = '9053@10.0.2.15'
 
 mayapy_path = "/usr/autodesk/maya2023/bin/mayapy"
 mayausd_version = "0.19.0_202208181606-508c93f"
+mayausd_version = "0.20.0_202211021008-b68700b"
 
 tar_usd = "/gstepasset/WorkLibrary/8.FX_team/Test/changjin/Test/Test_USD_Pipe/_houdini/cache/usd/smoke_with_arnold_shader_v002.usd"
 os.system(f"{mayapy_path} /usr/autodesk/mayausd/maya2023/{mayausd_version}/mayausd/USD/bin/usdview {data_03_04_variant_asset}")
