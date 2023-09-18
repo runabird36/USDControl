@@ -37,6 +37,11 @@
     - Use default python3.6 version
     - Reason : There is a conflict between python paths
 
+6. use mayaUSD usdview to use
+    ```
+    {mayapy_path} /usr/autodesk/mayausd/maya2023/{mayausd_version}/mayausd/USD/bin/usdview {usd file}
+    ```
+
 </br>
 </br>
 </br>
