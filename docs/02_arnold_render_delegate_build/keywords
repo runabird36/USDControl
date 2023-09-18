@@ -1,0 +1,5 @@
+- 빌드 환경
+- build command 
+- pyconfig.h error -> python2-devel / python3-devel
+- python3.6 (o) python2.7 (x)
+- render
