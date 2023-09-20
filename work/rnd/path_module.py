@@ -6,6 +6,9 @@ data_dir = f"{prj_dir}/data"
 code_dir = f"{prj_dir}/work/code"
 
 
+
+usd_format_type = "usd"
+
 resource_ldv_00 = f"{data_dir}/00_asset_ldv.usd"
 
 
@@ -36,22 +39,22 @@ exported_data_magician_arnold_rig   = f"{data_dir}/exportedData/magician_arnold_
 
 
 
-data_02_00_rearranged_ldv       = f"{data_dir}/magician02_rearranged_ldv.usd"
-data_02_00_ldv_entity           = f"{data_dir}/magician02_ldv_entity.usd"
-data_02_01_rig_entity           = f"{data_dir}/magician02_rig_entity.usd"
-data_02_01_magician_asset       = f"{data_dir}/magician02_asset.usd"
-data_02_02_magician_setDressing = f"{data_dir}/magician02_groupses.usd"
+data_02_00_rearranged_ldv       = f"{data_dir}/magician02_rearranged_ldv.{usd_format_type}"
+data_02_00_ldv_entity           = f"{data_dir}/magician02_ldv_entity.{usd_format_type}"
+data_02_01_rig_entity           = f"{data_dir}/magician02_rig_entity.{usd_format_type}"
+data_02_01_magician_asset       = f"{data_dir}/magician02_asset.{usd_format_type}"
+data_02_02_magician_setDressing = f"{data_dir}/magician02_groupses.{usd_format_type}"
 
 
 
-data_03_00_rearranged_ldv_ani       = f"{data_dir}/magician03/magician03_fragment/magician03_rearraged_ldv_ani.usd"
-data_03_00_rearranged_ldv_render    = f"{data_dir}/magician03/magician03_fragment/magician03_rearraged_ldv_render.usd"
-data_03_01_variant_ldv_entity       = f"{data_dir}/magician03/magician03_entity/maigician03_variant_ldv_entity.usd"
-data_03_02_rearragned_magician_rig  = f"{data_dir}/magician03/magician03_fragment/magician03_rearranged_arnold_rig.usd"
-data_03_03_geo_entity               = f"{data_dir}/magician03/magician03_entity/maigician03_variant_geo_entity.usd"
-data_03_04_variant_asset            = f"{data_dir}/magician03/magician03_arnold_variant_asset.usd"
-data_03_05_magician_reference_setDressing = f"{data_dir}/magician03/magician03_groupses_var_ref.usd"
-data_03_05_magician_payload_setDressing   = f"{data_dir}/magician03/magician03_groupses_var_payload.usd"
+data_03_00_rearranged_ldv_ani       = f"{data_dir}/magician03_{usd_format_type}/magician03_fragment/magician03_rearraged_ldv_ani.{usd_format_type}"
+data_03_00_rearranged_ldv_render    = f"{data_dir}/magician03_{usd_format_type}/magician03_fragment/magician03_rearraged_ldv_render.{usd_format_type}"
+data_03_01_variant_ldv_entity       = f"{data_dir}/magician03_{usd_format_type}/magician03_entity/maigician03_variant_ldv_entity.{usd_format_type}"
+data_03_02_rearragned_magician_rig  = f"{data_dir}/magician03_{usd_format_type}/magician03_fragment/magician03_rearranged_arnold_rig.{usd_format_type}"
+data_03_03_geo_entity               = f"{data_dir}/magician03_{usd_format_type}/magician03_entity/maigician03_variant_geo_entity.{usd_format_type}"
+data_03_04_variant_asset            = f"{data_dir}/magician03_{usd_format_type}/magician03_arnold_variant_asset.{usd_format_type}"
+data_03_05_magician_reference_setDressing = f"{data_dir}/magician03_{usd_format_type}/magician03_groupses_var_ref.{usd_format_type}"
+data_03_05_magician_payload_setDressing   = f"{data_dir}/magician03_{usd_format_type}/magician03_groupses_var_payload.{usd_format_type}"
 
 
 

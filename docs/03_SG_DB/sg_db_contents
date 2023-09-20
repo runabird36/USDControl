@@ -1,0 +1,56 @@
+
+[publish.parquet]
+
+| file_name | file_path | step | user     | pub_type       |     id | entity_name       | task_name   | description  |
+
+| kadan_ldv_asset01_v002_red.mb                           
+| /projects/2022_09_pipelineEDU2/assets/character/kadan/lookdev/ldv_asset01/pub/mb/v002/kadan_ldv_asset01_v002_red.mb 
+| LookDev     
+| 송태영 PIPE 
+| Maya Scene     
+|  97009 
+| kadan             
+| ldv_asset01 
+| aa 
+
+
+
+
+
+
+[category.parquet]
+
++---------------+-------+-------------------+-------------+---------------------------+
+| entity_type   |    id | name              | type        | linked_asset              |
+|---------------+-------+-------------------+-------------+---------------------------|
+| Shot          | 29914 | EDU_0010          | EDU         | ['kadan' 'ryan' 'silian'] |
+| Shot          | 30542 | EDU_0020          | EDU         | []                        |
+| Shot          | 30681 | EDU_0030          | EDU         | ['kadan' 'ryan']          |
+| Shot          | 31300 | EDU_0050          | EDU         | ['kadan' 'wyvern']        |
+| Shot          | 33116 | EDU_0060          | EDU         | ['silian']                |
+| Shot          | 35394 | EDU_0070          | EDU         | []                        |
+| Asset         | 26750 | ryan              | Character   | []                        |
+| Asset         | 27049 | abrelshud         | Character   | []                        |
+| Asset         | 27222 | flowerA           | Prop        | []                        |
+| Asset         | 27344 | kadan             | Character   | []                        |
+| Asset         | 27750 | kadanSword        | Weapon      | []                        |
+| Asset         | 28203 | simpleSphere      | Prop        | []                        |
+| Asset         | 28341 | silian            | Character   | []                        |
+| Asset         | 28643 | bernSouth         | Environment | []                        |
+| Asset         | 28765 | lynGigongsa       | Character   | []                        |
+| Asset         | 28766 | lynDoesa          | Character   | []                        |
+| Asset         | 29265 | wyvern            | Character   | []                        |
+| Asset         | 29326 | spearmanAcrwd     | Character   | []                        |
+| Asset         | 29327 | knightAcrwd       | Character   | []                        |
+| Asset         | 29328 | magicianAcrwd     | Character   | []                        |
+| Asset         | 29330 | edunkelCrwd       | Character   | []                        |
+| Asset         | 29332 | commanderAcrwd    | Character   | []                        |
+| Asset         | 29333 | devilSoldierBcrwd | Character   | []                        |
+| Asset         | 29334 | devilSoldierCcrwd | Character   | []                        |
+| Asset         | 29335 | wyvernCrwd        | Character   | []                        |
+| Asset         | 29336 | kaltmalusCrwd     | Character   | []                        |
+| Asset         | 29346 | devilSoldierAcrwd | Character   | []                        |
+| Asset         | 30320 | galaxy08          | Prop        | []                        |
+| Asset         | 30321 | galaxy08phone     | Prop        | []                        |
+| Asset         | 30621 | testAsset         | Character   | []                        |
++---------------+-------+-------------------+-------------+---------------------------+

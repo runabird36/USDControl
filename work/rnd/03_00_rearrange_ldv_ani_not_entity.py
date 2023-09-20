@@ -28,6 +28,7 @@ for _mat, _geo_list in binding_info_ani.items():
     for _geo in _geo_list:
         geo_prim = to_stage.OverridePrim(f"{_geo}")
         print(geo_prim, "-->", mat_prim)
+        geo_prim.ApplyAPI(UsdShade.MaterialBindingAPI)
         UsdShade.MaterialBindingAPI(geo_prim).Bind(UsdShade.Material(mat_prim))
 
 

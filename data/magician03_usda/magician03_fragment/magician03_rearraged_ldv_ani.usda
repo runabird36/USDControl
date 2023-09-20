@@ -1,0 +1,276 @@
+#usda 1.0
+(
+    defaultPrim = "magicianAcrwd_GRP"
+)
+
+def Xform "magicianAcrwd_GRP"
+{
+    def Scope "mtl"
+    {
+        def Material "initialShadingGroup"
+        {
+        }
+
+        def Material "magician_robe_SG"
+        {
+            token outputs:surface.connect = </magicianAcrwd_GRP/mtl/magician_robe_SG/magician_robe.outputs:surface>
+
+            def Shader "magician_robe"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.0745, 0.0705, 0.0901)
+                token outputs:displacement
+                token outputs:surface
+            }
+        }
+
+        def Material "magician_face_SG"
+        {
+            token outputs:surface.connect = </magicianAcrwd_GRP/mtl/magician_face_SG/magician_face.outputs:surface>
+
+            def Shader "magician_face"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.8, 0.5137, 0.3725)
+                token outputs:displacement
+                token outputs:surface
+            }
+        }
+
+        def Material "magician_inner_cloth_SG"
+        {
+            token outputs:surface.connect = </magicianAcrwd_GRP/mtl/magician_inner_cloth_SG/magician_inner_cloth.outputs:surface>
+
+            def Shader "magician_inner_cloth"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.2352, 0.2352, 0.2431)
+                token outputs:displacement
+                token outputs:surface
+            }
+        }
+
+        def Material "magician_belt_SG"
+        {
+            token outputs:surface.connect = </magicianAcrwd_GRP/mtl/magician_belt_SG/magician_belt.outputs:surface>
+
+            def Shader "magician_belt"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.2823, 0.2352, 0.1647)
+                token outputs:displacement
+                token outputs:surface
+            }
+        }
+
+        def Material "magician_sign_SG"
+        {
+            token outputs:surface.connect = </magicianAcrwd_GRP/mtl/magician_sign_SG/magician_sign.outputs:surface>
+
+            def Shader "magician_sign"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.596, 0.3137, 0.3058)
+                token outputs:displacement
+                token outputs:surface
+            }
+        }
+
+        def Material "magician_staff_01_SG"
+        {
+            token outputs:surface.connect = </magicianAcrwd_GRP/mtl/magician_staff_01_SG/magician_staff_01.outputs:surface>
+
+            def Shader "magician_staff_01"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.0352, 0.0352, 0.0352)
+                token outputs:displacement
+                token outputs:surface
+            }
+        }
+
+        def Material "magician_staff_02_SG"
+        {
+            token outputs:surface.connect = </magicianAcrwd_GRP/mtl/magician_staff_02_SG/magician_staff_02.outputs:surface>
+
+            def Shader "magician_staff_02"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.728, 0.4957, 0.208)
+                float inputs:metallic = 0.14880952
+                token outputs:displacement
+                token outputs:surface
+            }
+        }
+
+        def Material "magician_shoes_SG"
+        {
+            token outputs:surface.connect = </magicianAcrwd_GRP/mtl/magician_shoes_SG/magician_shoes.outputs:surface>
+
+            def Shader "magician_shoes"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.0745, 0.0705, 0.0901)
+                float inputs:metallic = 0.43452382
+                float inputs:roughness = 0.44103572
+                token outputs:displacement
+                token outputs:surface
+            }
+        }
+    }
+
+    over "magicianAcrwd_char_GRP"
+    {
+        over "magicianAcrwd_low_GRP"
+        {
+            over "magicianAcrwd_low_lowerBody_GRP"
+            {
+                over "magicianAcrwd_low_lowerBody_belt_A_GRP"
+                {
+                    over "magicianAcrwd_low_lowerBody_belt_Aa_leather_GEO" (
+                        prepend apiSchemas = ["MaterialBindingAPI"]
+                    )
+                    {
+                        rel material:binding = </magicianAcrwd_GRP/mtl/magician_belt_SG>
+                    }
+
+                    over "magicianAcrwd_low_lowerBody_belt_Aa_steel_GEO" (
+                        prepend apiSchemas = ["MaterialBindingAPI"]
+                    )
+                    {
+                        rel material:binding = </magicianAcrwd_GRP/mtl/magician_sign_SG>
+                    }
+                }
+            }
+
+            over "magicianAcrwd_low_head_GRP"
+            {
+                over "magicianAcrwd_low_head_chainmail_A_steel_GEO" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </magicianAcrwd_GRP/mtl/magician_belt_SG>
+                }
+            }
+
+            over "magicianAcrwd_low_arm_L_GRP"
+            {
+                over "magicianAcrwd_low_arm_gloves_L_leather_GEO" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </magicianAcrwd_GRP/mtl/magician_face_SG>
+                }
+            }
+
+            over "magicianAcrwd_low_arm_R_GRP"
+            {
+                over "magicianAcrwd_low_arm_gloves_R_leather_GEO" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </magicianAcrwd_GRP/mtl/magician_face_SG>
+                }
+            }
+
+            over "magicianAcrwd_low_body_GRP"
+            {
+                over "magicianAcrwd_low_body_skin_GEO" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </magicianAcrwd_GRP/mtl/magician_face_SG>
+                }
+            }
+
+            over "magicianAcrwd_low_upperBody_GRP"
+            {
+                over "magicianAcrwd_low_upperBody_surcoat_GRP"
+                {
+                    over "magicianAcrwd_low_upperBody_surcoat_B_Fabric_GEO" (
+                        prepend apiSchemas = ["MaterialBindingAPI"]
+                    )
+                    {
+                        rel material:binding = </magicianAcrwd_GRP/mtl/magician_inner_cloth_SG>
+                    }
+                }
+
+                over "magicianAcrwd_low_upperBody_B_fabric_GEO" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </magicianAcrwd_GRP/mtl/magician_robe_SG>
+                }
+            }
+
+            over "magicianAcrwd_low_leg_R_GRP"
+            {
+                over "magicianAcrwd_low_leg_R_B_steel_GEO" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </magicianAcrwd_GRP/mtl/magician_shoes_SG>
+                }
+
+                over "magicianAcrwd_low_leg_R_C_steel_GEO" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </magicianAcrwd_GRP/mtl/magician_shoes_SG>
+                }
+            }
+
+            over "magicianAcrwd_low_leg_L_GRP"
+            {
+                over "magicianAcrwd_low_leg_L_B_steel_GEO" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </magicianAcrwd_GRP/mtl/magician_shoes_SG>
+                }
+
+                over "magicianAcrwd_low_leg_L_C_steel_GEO" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </magicianAcrwd_GRP/mtl/magician_shoes_SG>
+                }
+            }
+        }
+    }
+
+    over "magicianAcrwd_weapon_GRP"
+    {
+        over "magicianAcrwd_low_magicStaff_GRP"
+        {
+            over "magicianAcrwd_low_magicStaff_A_wood_GEO" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </magicianAcrwd_GRP/mtl/magician_staff_01_SG>
+            }
+
+            over "magicianAcrwd_low_magicStaff_C_steel_GEO" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </magicianAcrwd_GRP/mtl/magician_staff_02_SG>
+            }
+
+            over "magicianAcrwd_low_magicStaff_A_steel_GEO" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </magicianAcrwd_GRP/mtl/magician_staff_02_SG>
+            }
+
+            over "magicianAcrwd_low_magicStaff_B_steel_GEO" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </magicianAcrwd_GRP/mtl/magician_staff_02_SG>
+            }
+        }
+    }
+}
+

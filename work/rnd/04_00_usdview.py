@@ -2,7 +2,7 @@
 
 import subprocess
 import os
-from path_module import data_03_04_variant_asset
+from path_module import data_03_04_variant_asset, data_03_05_magician_payload_setDressing
 
 
 # for i, j in os.environ.items():
@@ -30,6 +30,20 @@ os.environ['solidangle_LICENSE'] = '9053@10.0.2.15'
 mayapy_path = "/usr/autodesk/maya2023/bin/mayapy"
 mayausd_version = "0.19.0_202208181606-508c93f"
 mayausd_version = "0.20.0_202211021008-b68700b"
+# mayausd_version = "0.19.0_202208051814-6d974fb"
 
 tar_usd = "/gstepasset/WorkLibrary/8.FX_team/Test/changjin/Test/Test_USD_Pipe/_houdini/cache/usd/smoke_with_arnold_shader_v002.usd"
+
+
+print(f"{mayapy_path} /usr/autodesk/mayausd/maya2023/{mayausd_version}/mayausd/USD/bin/usdview {data_03_04_variant_asset}")
 os.system(f"{mayapy_path} /usr/autodesk/mayausd/maya2023/{mayausd_version}/mayausd/USD/bin/usdview {data_03_04_variant_asset}")
+
+'''
+    usage: /usr/autodesk/mayausd/maya2023/0.20.0_202211021008-b68700b/mayausd/USD/bin/usdview [-h] [--renderer {GL,Arnold}] [--select PRIMPATH] [--camera CAMERA] [--mask PRIMPATH[,PRIMPATH...]] [--clearsettings] [--config {}] [--defaultsettings]
+                                                                                          [--norender] [--noplugins] [--unloaded] [--timing] [--traceToFile TRACETOFILE] [--traceFormat {chrome,trace}] [--tracePython]
+                                                                                          [--memstats {none,stage,stageAndImaging}] [--numThreads NUMTHREADS] [--ff FIRSTFRAME] [--lf LASTFRAME] [--cf CURRENTFRAME]
+                                                                                          [--complexity {low,medium,high,veryhigh}] [--quitAfterStartup] [--sessionLayer SESSIONLAYER] [--mute MUTELAYERSRE] [--detachLayers]
+                                                                                          [--detachLayersInclude PATTERN[,PATTERN...]] [--detachLayersExclude PATTERN[,PATTERN,...]]
+                                                                                          usdFile
+
+'''

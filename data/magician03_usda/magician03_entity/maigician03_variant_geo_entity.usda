@@ -1,0 +1,11 @@
+#usda 1.0
+(
+    defaultPrim = "root"
+)
+
+def "root" (
+    prepend references = @../magician03_fragment/magician03_rearranged_arnold_rig.usda@
+)
+{
+}
+

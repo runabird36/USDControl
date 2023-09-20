@@ -1,0 +1,18 @@
+#usda 1.0
+(
+    defaultPrim = "root"
+    subLayers = [
+        @magician03_entity/maigician03_variant_ldv_entity.usda@,
+        @magician03_entity/maigician03_variant_geo_entity.usda@
+    ]
+)
+
+over "root" (
+    kind = "component"
+    variants = {
+        string viewMode = "ani"
+    }
+)
+{
+}
+
