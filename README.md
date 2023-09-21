@@ -48,6 +48,7 @@ export HGWEAVER_USD_ROOT=path # path --> git clone path
     - [Hydra](https://openusd.org/files/Siggraph2019_Hydra.pdf)
 - [USD-Cookbook](https://github.com/ColinKennedy/USD-Cookbook)
 - [USD-API](https://graphics.pixar.com/usd/release/api/index.html)
+- [Maya USD Command](https://github.com/Autodesk/maya-usd/blob/dev/lib/mayaUsd/commands/Readme.md)
 
 </br>
 
@@ -55,6 +56,7 @@ export HGWEAVER_USD_ROOT=path # path --> git clone path
 - [USD-Based Pipeline (2016)](https://vimeo.com/188191100)
 - [Pixar BOF SIGGRAPH 2022](https://vimeo.com/752352357)
 - [USD Survival Guide](https://lucascheller.github.io/VFX-UsdSurvivalGuide/introduction/overview.html)
+- [USD Survival Guide Github](https://github.com/LucaScheller/VFX-UsdSurvivalGuide/tree/main/files)
 - [NVIDIA Developer 가이드](https://developer.nvidia.com/usd#sample)
 - [Houdini USD workflow](https://youtu.be/2YBKWJJX2iQ)
 - [Animal logic USD](https://www.youtube.com/watch?v=o6VwS7VVx1I&list=PLNUaMVwYjKk8QDlM8gQSLbl8jxLRgc7d6&index=1)
