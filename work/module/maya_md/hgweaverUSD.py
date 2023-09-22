@@ -65,7 +65,14 @@ def open_usdview():
 
 
 
-
+def create_node(usd_path :str, name :str) -> str:
+    usd_node = cmds.createNode("mayaUsdProxyShape", n=f"{name}Shape")
+    transform_node = cmds.listRelatives(usd_node, p=True)[0]
+    renamed_res = cmds.rename(transform_node, name)
+    
+    cmds.setAttr(f"{usd_node}.filePath", usd_path, type="string")
+    
+    return renamed_res
 
 
 

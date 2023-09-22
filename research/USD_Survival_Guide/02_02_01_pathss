@@ -1,0 +1,24 @@
+from pxr import Sdf
+
+
+path = Sdf.Path("/set/bicycle")
+path_name = path.name
+print(f"Sdf.Path.name : /set/bicycle       --->     {path_name}")
+
+appended_path = path.AppendPath(Sdf.Path("frame/screws"))
+print(f"Sdf.Path.AppendPath(Sdf.Path) : /set/bicycle + frame/screws  ---> {appended_path}")
+
+join_with_delimiter_str = Sdf.Path.childDelimiter.join(["set", "bicycle"])
+join_with_delimiter = Sdf.Path(join_with_delimiter_str)
+print(f"Sdf.Path.childDelimiter(list) -> str : [\"set\", \"bicycle\"]  ---> {join_with_delimiter}")
+
+
+print(Sdf.Path.absoluteRootPath)
+
+
+_src = Sdf.Path("/set/bicycle")
+_dst = Sdf.Path.emptyPath
+edit = Sdf.BatchNamespaceEdit()
+print(edit)
+edit.Add(_src, _dst)
+print(edit)
