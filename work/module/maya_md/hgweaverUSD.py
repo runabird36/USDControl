@@ -1,9 +1,9 @@
 import maya.cmds as cmds
-
+from pxr import Usd
 import os
 import sys
 import subprocess
-
+import mayaUsd
 
 
 def open_usdview():
@@ -61,7 +61,23 @@ def open_usdview():
 
 
 
+def get_stage_from_path(_path :str) -> None:
+    
+    if os.path.exists(_path) == True:
+        _stage = Usd.Stage.Open(_path)
+        return _stage
+    else:
+        return None
+    
 
+def get_stage_from_selection() -> Usd.Stage:
+    sel_res = cmds.ls(type="mayaUsdProxyShape", l=True)
+    if sel_res:
+        tar_stage = mayaUsd.ufe.getStage(sel_res[0])
+        return tar_stage
+    else:
+        return None
+    
 
 
 
@@ -73,6 +89,16 @@ def create_node(usd_path :str, name :str) -> str:
     cmds.setAttr(f"{usd_node}.filePath", usd_path, type="string")
     
     return renamed_res
+
+
+def get_path_from_stage(usd_proxy_node :str="") -> str:
+    if usd_proxy_node == "":
+        sel_res = cmds.ls(sl=True, ufe=True)
+        if sel_res == []:
+            return ""
+        usd_proxy_node = sel_res[0]
+
+    return cmds.getAttr(f"{usd_proxy_node}.filePath")
 
 
 
