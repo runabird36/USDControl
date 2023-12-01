@@ -2,7 +2,7 @@ from tabnanny import check
 from ..utils.basic_item import BasicItem
 import threading
 import os
-from general_md_3x import LUCY
+from general_md_3x import LUCY, LUCIA
 import re
 import sys
 import shutil
@@ -31,6 +31,7 @@ class Exporter(BasicItem):
     def __init__(self):
         BasicItem.__dict__['__init__'](self)
         self.set_type("Exporter")
+        self.usd_path = LUCIA.Path()
 
 
 
@@ -202,8 +203,7 @@ class Exporter(BasicItem):
         ver_checkpath = path_dic['root'] + "/" + "pub" + "/" + ext 
         
         vernum = get_next_ver(ver_checkpath, postfix)
-        print(111111111111111111)
-        print(vernum)
+        
         path_dic['version'] = vernum
         path_dic['ext'] = ext
         entity_dict = LUCY.get_entity()
@@ -322,6 +322,24 @@ class Exporter(BasicItem):
                 del_count += 1
         _msg = "채크 완료\n삭제 노드 개수 : {0}".format(str(del_count))
         print(_msg, file=sys.stdout)
+        
+        
+    def get_USD_dirname(self) -> str:
+        cur_category = LUCY.get_category()
+        
+        if cur_category == 'assets':
+            return self.usd_path.get_asset_path()
+        else:
+            return self.usd_path.get_shot_path()
+            
+
+    def get_USD_basename(self) -> str:
+        pass
+
+        
+    def get_USD_path(self) -> str:
+        pass
+        
         
             
         

@@ -162,9 +162,6 @@ class AbcItem():
             if '_groupAsset' in target:
                 file_attr = target
             elif cam_shp_name in target:
-                print(cam_shp_name in target)
-                print(6666666666, cam_shp_name)
-                print(777777777777, target)
                 # change pub path only in cam pub case
                 cur_step = LUCY.get_pipe_step()
                 cur_taskname = LUCY.get_task()
@@ -185,9 +182,9 @@ class AbcItem():
                 
                 cam_basename = LUCY.get_abccam_pubfilename(_elements=entity_dict)
                 
-                print(cam_basename)
+                
                 abc_pub_path = abc_cam_pub_path + next_vernum + '/' + cam_basename
-                print(55555555555555, abc_pub_path)
+                
                 file_attr = ''
 
                 # self.set_cam_default_attr(target)
