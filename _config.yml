@@ -1,0 +1,10 @@
+lsi: false
+safe: true
+source_url: https://github.com/runabird36/USDControl/tree/master/docs/build/html
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
