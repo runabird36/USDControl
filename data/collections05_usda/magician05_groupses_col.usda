@@ -1,0 +1,251 @@
+#usda 1.0
+(
+    endTimeCode = 30
+    startTimeCode = 1
+)
+
+def xform "SET" (
+    prepend apiSchemas = ["MaterialBindingAPI"]
+    prepend references = @/usersetup/pipeline/playground/projects/2023_02_usdPipeline/data/magician03_usda/magician03_fragment/magician03_rearraged_ldv_ani.usda@
+)
+{
+    rel material:binding:collection:magicianAcrwd_robe = [
+        </SET/magicianAcrwd_grp.collection:magicianAcrwd_robe>,
+        </SET/mtl/magician_robe_SG>,
+    ]
+
+    def xform "magicianAcrwd_grp" (
+        prepend apiSchemas = ["CollectionAPI:magicianAcrwd_robe"]
+    )
+    {
+        uniform token collection:magicianAcrwd_robe:expansionRule = "expandPrims"
+        prepend rel collection:magicianAcrwd_robe:includes = [
+            </SET/magicianAcrwd_grp/magicianAcrwd_000/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_001/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_002/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_003/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_004/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_005/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_006/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_007/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_008/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_009/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_010/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_011/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_012/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_013/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_014/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_015/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_016/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_017/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_018/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_019/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_020/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_021/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_022/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_023/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+            </SET/magicianAcrwd_grp/magicianAcrwd_024/magicianAcrwd_char_GRP/magicianAcrwd_low_GRP/magicianAcrwd_low_upperBody_GRP/magicianAcrwd_low_upperBody_B_fabric_GEO>,
+        ]
+
+        def Xform "magicianAcrwd_000" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_001" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (0, 0, 20)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_002" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (0, 0, 40)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_003" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (0, 0, 60)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_004" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (0, 0, 80)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_005" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (20, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_006" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (20, 0, 20)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_007" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (20, 0, 40)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_008" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (20, 0, 60)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_009" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (20, 0, 80)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_010" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (40, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_011" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (40, 0, 20)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_012" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (40, 0, 40)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_013" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (40, 0, 60)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_014" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (40, 0, 80)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_015" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (60, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_016" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (60, 0, 20)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_017" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (60, 0, 40)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_018" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (60, 0, 60)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_019" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (60, 0, 80)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_020" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (80, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_021" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (80, 0, 20)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_022" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (80, 0, 40)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_023" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (80, 0, 60)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "magicianAcrwd_024" (
+            prepend payload = @../magician03_usda/magician03_fragment/magician03_rearranged_arnold_rig.usda@
+        )
+        {
+            double3 xformOp:translate = (80, 0, 80)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+}
+

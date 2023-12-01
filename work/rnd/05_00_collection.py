@@ -1,64 +1,56 @@
-# Usd.CollectionAPI.Apply(prim, collection_name)
-# collection_api = Usd.CollectionAPI(prim, collection_nam)
-# collection_query = collection_api.ComputeMembershipQuery()
-### High Level ###
-from pxr import Sdf, Usd, UsdUtils
-stage = Usd.Stage.CreateInMemory()
-bicycle_prim = stage.DefinePrim(Sdf.Path("/set/yard/biycle"), "Cube")
-car_prim = stage.DefinePrim(Sdf.Path("/set/garage/car"), "Sphere")
-tractor_prim = stage.DefinePrim(Sdf.Path("/set/garage/tractor"), "Cylinder")
-helicopter_prim = stage.DefinePrim(Sdf.Path("/set/garage/helicopter"), "Cube")
-boat_prim = stage.DefinePrim(Sdf.Path("/set/garage/boat"), "Cube")
-set_prim = bicycle_prim.GetParent().GetParent()
-set_prim.SetTypeName("Xform")
-bicycle_prim.GetParent().SetTypeName("Xform")
-car_prim.GetParent().SetTypeName("Xform")
-# Create collection
-collection_name = "vehicles"
-collection_api = Usd.CollectionAPI.Apply(set_prim, collection_name)
-collection_api.GetIncludesRel().AddTarget(set_prim.GetPath())
-collection_api.GetExcludesRel().AddTarget(bicycle_prim.GetPath())
-collection_api.GetExpansionRuleAttr().Set(Usd.Tokens.expandPrims)
-print(Usd.CollectionAPI.GetAllCollections(set_prim)) # Returns: [Usd.CollectionAPI(Usd.Prim(</set>), 'vehicles')]
-print(Usd.CollectionAPI.GetCollection(set_prim, "vehicles")) # Returns: Usd.CollectionAPI(Usd.Prim(</set>), 'vehicles')
-collection_query = collection_api.ComputeMembershipQuery()
-print(collection_api.ComputeIncludedPaths(collection_query, stage))
-# Returns: [Sdf.Path('/set'), Sdf.Path('/set/garage'), Sdf.Path('/set/garage/car'), Sdf.Path('/set/yard')]
-# Set it to explicit only
-collection_api.GetExpansionRuleAttr().Set(Usd.Tokens.explicitOnly)
-collection_query = collection_api.ComputeMembershipQuery()
-print(collection_api.ComputeIncludedPaths(collection_query, stage))
-# Returns: [Sdf.Path('/set')]
 
-# To help speed up collection creation, USD also ships with util functions:
-# UsdUtils.AuthorCollection(<collectionName>, prim, [<includePathList>], [<excludePathList>])
-collection_api = UsdUtils.AuthorCollection("two_wheels", set_prim, [set_prim.GetPath()], [car_prim.GetPath()])
-collection_query = collection_api.ComputeMembershipQuery()
-print(collection_api.ComputeIncludedPaths(collection_query, stage))
-# Returns:
-# [Sdf.Path('/set'), Sdf.Path('/set/garage'), Sdf.Path('/set/yard'), Sdf.Path('/set/yard/biycle')]
-# UsdUtils.ComputeCollectionIncludesAndExcludes() gives us the possibility to author 
-# collections more sparse, that the include to exclude ratio is kept at an optimal size.
-# The Python signature differs from the C++ signature:
-"""
-include_paths, exclude_paths = UsdUtils.ComputeCollectionIncludesAndExcludes(
-    target_paths,
-    stage,
-    minInclusionRatio = 0.75,
-    maxNumExcludesBelowInclude = 5,
-    minIncludeExcludeCollectionSize = 3,
-    pathsToIgnore = [] # This ignores paths from computation (this is not the exclude list)
-)		
-"""
-target_paths = [tractor_prim.GetPath(), car_prim.GetPath(), helicopter_prim.GetPrimPath()]
-include_paths, exclude_paths = UsdUtils.ComputeCollectionIncludesAndExcludes(target_paths,stage, minInclusionRatio=.9)
-print(include_paths, exclude_paths)
-# Returns:
-# [Sdf.Path('/set/garage/car'), Sdf.Path('/set/garage/tractor'), Sdf.Path('/set/garage/helicopter')] []
-include_paths, exclude_paths = UsdUtils.ComputeCollectionIncludesAndExcludes(target_paths,stage, minInclusionRatio=.1)
-print(include_paths, exclude_paths)
-# Returns: [Sdf.Path('/set/garage')] [Sdf.Path('/set/garage/boat')]
-# Create a collection from the result
-collection_api = UsdUtils.AuthorCollection("optimized", set_prim, include_paths, exclude_paths)
 
-print(stage.GetRootLayer().ExportToString())
+from pxr import Usd, Sdf, UsdUtils, UsdShade
+from path_module import (
+                            assetname,
+                            data_05_00_lambert_magician_setDressing,
+                            data_05_00_authorign_collection,
+                            binding_info_ani,
+                            data_03_00_rearranged_ldv_ani
+                        )
+from shutil import copyfile
+
+
+len_size = 5
+
+
+copyfile(data_05_00_lambert_magician_setDressing, data_05_00_authorign_collection)
+
+root_stage = Usd.Stage.Open(data_05_00_authorign_collection)
+
+
+
+asset_grp_prim = root_stage.GetPrimAtPath(Sdf.Path(f"/SET/{assetname}_grp"))
+root_prim = root_stage.GetPrimAtPath("/SET")
+
+asset_grp_prim.SetTypeName("xform")
+root_prim.SetTypeName("xform")
+
+
+col_name = f"{assetname}_robe"
+col_api = Usd.CollectionAPI.Apply(asset_grp_prim, col_name)
+
+
+for _idx in range(len_size*len_size):
+    
+    test_geo_path = binding_info_ani.get("magician_robe_SG")[0]
+    
+    count = str(_idx).zfill(3)
+    xform_path = f"/SET/{assetname}_grp/{assetname}_{count}"
+    target_path = test_geo_path.replace(f"/{assetname}_GRP", xform_path)
+    add_target_prim = root_stage.GetPrimAtPath(target_path)
+    if add_target_prim:
+        col_api.GetIncludesRel().AddTarget(Sdf.Path(target_path))
+col_api.GetExpansionRuleAttr().Set(Usd.Tokens.expandPrims)
+# col_api.ComputeMembershipQuery()
+
+set_prim = root_stage.GetPrimAtPath("/SET")
+set_prim.GetReferences().AddReference(data_03_00_rearranged_ldv_ani)
+
+mat_prim = root_stage.GetPrimAtPath("/SET/mtl/magician_robe_SG")
+
+# print(get_bound_material(prim, collection="Erasers").GetPath())
+root_prim.ApplyAPI(UsdShade.MaterialBindingAPI)
+UsdShade.MaterialBindingAPI(root_prim).Bind(col_api, UsdShade.Material(mat_prim))
+
+root_stage.Save()

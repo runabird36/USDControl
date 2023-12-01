@@ -7,7 +7,9 @@ import os, pickle, pprint, time, socket, re
 
 
 from maya_md import neon
-from general_md_3x import LUCY
+from general_md_3x import LUCY, LUCIA
+
+
 
 
 
@@ -22,14 +24,13 @@ class MdlExporter(Exporter):
         self.set_title("Exporter")
         self.m_sg_tk = m_sg_tk
         self.progress_dialog = p_dialog
+        
 
 
     def pre_execute(self, targets, options):
 
         maya_toolkit.set_display_setting("1")
-        # self.pub_type_list = options['Export Order']
-        # {'Export Order': [u'maya', u'alembic cache']}
-        # {'Export Order': [u'maya', u'alembic cache'], 'pub with Alembic': [u'publish with alembic']}
+        self.clean_file_py()
 
         self.PUB_WITH_ABC = False
         if options.get('pub with Alembic') == []:
@@ -43,9 +44,6 @@ class MdlExporter(Exporter):
             self.PUB_WITH_MAT = False
         else:
             self.PUB_WITH_MAT = True
-
-
-
 
 
         self._set_basic_info()
@@ -79,8 +77,12 @@ class MdlExporter(Exporter):
             all_path.append(self.abc_pub_path)
 
 
-        # self.hichy_pub_path = self.get_pub_paths('hichy')
-        # all_path.append(self.hichy_pub_path)
+        
+
+
+
+
+
         self.add_pub_files(all_path)
 
         
@@ -181,34 +183,7 @@ class MdlExporter(Exporter):
 
 
 
-        # # meshes file publish
-        # all_shape = cmds.ls(target, dagObjects = True, long = True)
-
-
-        # dir_path_hichy=os.path.dirname(self.hichy_pub_path)
-        # if not os.path.exists(dir_path_hichy):
-        #     os.makedirs(dir_path_hichy)
-
-
-
-        # export_target_all_shape = []
-        # target = self.target[0]
-        # asset_name = LUCY.get_assetname()
-        # export_target_all_shape = cmds.ls(target, dagObjects = True, long = True)
-        
-        # export_target_all_shape = self.filtered_not_main_shape(export_target_all_shape)
-
-        
-        # with open(self.hichy_pub_path, "wb") as p:
-        #     pickle.dump(export_target_all_shape, p)
-
-
-
-
-
-
-
-
+        # abc file publish
         if self.PUB_WITH_ABC == True:
             abc_pub_dir_path = os.path.dirname(self.abc_pub_path)
             if not os.path.exists(abc_pub_dir_path):
@@ -220,11 +195,8 @@ class MdlExporter(Exporter):
             pub_targets.append(self.abc_pub_path)
 
 
+        
 
-
-            # pub_targets = [ma_pub_path]
-            # self.pub_to_sg(pub_targets)
-            # self.finish(ma_pub_path)
 
 
 

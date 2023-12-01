@@ -39,7 +39,7 @@ class ItemSupply():
 
             from ..selectors.mdl_selector import MdlSelector
 
-            from ..exporters.mdl_exporter_03 import MdlExporter
+            from ..exporters.mdl_exporter import MdlExporter
 
             return [TargetSelector(), FreezeSelector(), HistoryChekcer(), NameChekcer(), FreezeChecker(), UVsetChecker(), MdlSelector(), MdlExporter(self.m_sg_tk, self.p_dialog)]
             
