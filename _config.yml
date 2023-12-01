@@ -1,6 +1,10 @@
 lsi: false
 safe: true
+baseurl: ./docs/build/html/
+production_url: https://moon9342.github.io/
 source_url: https://github.com/runabird36/USDControl/tree/master/docs/build/html
+plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
+destination: ./docs/build/html/
 incremental: false
 highlighter: rouge
 gist:
